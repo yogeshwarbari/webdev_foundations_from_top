@@ -1,0 +1,13 @@
+1)  Documentation Search Web Interface:(Search Engine for documentation of all programming languages)
+    https://devdocs.io/
+
+2)  FreeCodeCamp Resposive Web Development Certification
+    Great place to practise & learn everything in HTML, CSS & JS.
+    Prolem Statements are given and we have to write solution and they have provided interactive environment to practise and test our solutions.
+    https://www.freecodecamp.org/learn/responsive-web-design/
+
+3)  FreeCodeCamp HTML, CSS and JS Crash Course
+    https://www.freecodecamp.org/news/html-crash-course/
+
+4)  Helpful article for basics 
+    https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/
