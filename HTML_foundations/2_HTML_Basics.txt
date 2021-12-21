@@ -1,0 +1,20 @@
+1)  Using the correct tags can have a big impact on two aspects of your sites: 
+    i)  how they are ranked in search engines; 
+    ii) and how accessible they are to users who rely on assistive technologies, like screen readers, to use the internet.
+
+2)  MDN Docs link for vast list of HTML tags and their documentation.
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+3)  We should always name the HTML file that will contain the homepage of our websites index.html. 
+    This is because web servers will by default look for an index.html page when users land on our websites - and not having one will cause big problems.
+
+4)  The doctype’s purpose is to tell the browser what version of HTML it should use to render the document.
+    The latest version of HTML is HTML5, and the doctype for that version is simply <!DOCTYPE html>.
+
+5)  If we didn’t include a title element, the webpage’s title would default to its file name.
+
+6)  Always have the meta tag in the head element for the charset encoding of the webpage: <meta charset="utf-8">.
+    Setting the encoding is very important because it ensures that the webpage will display special symbols and characters 
+    from different languages correctly in the browser.
+
+7)  HTML code validator: https://validator.w3.org/

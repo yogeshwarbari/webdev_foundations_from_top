@@ -11,3 +11,6 @@
 
 4)  Helpful article for basics 
     https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/
+
+5)  Lorem ipsum dummy text generator, image provider, font generator etc. to put and test in the webpage.
+    https://loremipsum.io
