@@ -26,3 +26,5 @@
         - Ordered List <ol>
         - Description List <dl> : It has description title <dl> and description details <dd> tags. There can me multiple description titles of one description details.
     https://learn.shayhowe.com/html-css/creating-lists/ --> Blog for Lists.
+
+10) alt attribute of <img> should be always used as screen readers specify the desciption of image mention in alt attribute.
