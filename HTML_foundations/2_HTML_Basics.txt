@@ -20,3 +20,9 @@
 7)  HTML code validator: https://validator.w3.org/
 
 8)  Use <strong> and <em> tags instead of <b> and <i> tags respectively because they supports accessiblity for those who need screen readers.
+
+9)  3 Types of Lists:
+        - Unordered List <ul>
+        - Ordered List <ol>
+        - Description List <dl> : It has description title <dl> and description details <dd> tags. There can me multiple description titles of one description details.
+    https://learn.shayhowe.com/html-css/creating-lists/ --> Blog for Lists.
