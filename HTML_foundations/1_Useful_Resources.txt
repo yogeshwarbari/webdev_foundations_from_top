@@ -14,3 +14,6 @@
 
 5)  Lorem ipsum dummy text generator, image provider, font generator etc. to put and test in the webpage.
     https://loremipsum.io
+
+6)  Webpage contain good info about typography, special symbols and good resource to look for HTML & CSS info.
+    https://www.internetingishard.com/html-and-css/links-and-images/
