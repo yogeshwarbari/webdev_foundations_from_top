@@ -1,0 +1,75 @@
+1.  Basic Syntax:
+    selector {
+        property : value;
+    }
+
+2. Universal selector - *
+    * {
+        color : red;
+    }
+
+3. We can add multiple classes, separated by space so use hyphen not spaces for multi-word class name.
+    class = "hello-world  goodbye"
+
+4.  id vs class attribute --> id should be used where specificity is needed.
+        i. an element can only have one ID but multiple classes.
+        ii. An ID cannot be repeated on a single page but classes can be reused.
+        iii. ID attribute should not contain any whitespace at all but allowed in class attribute.
+
+5.  Grouping: Two selectors an be used by separating with comma.
+    h1,h3 {
+        color: red;
+    }
+
+6. Selector chaining works for all types of selector except element selector.
+    .classmain.subclass {
+        color: red;
+    }
+    div#id1 {
+color: red;
+    }
+
+    If we try with elements. 
+    divp {
+
+    }
+    This will try to look for tag <divp> so won't work.
+
+7. There are 4 Combinators.
+    i. Descendent Combinator: Parent-child relationship
+    <div class="parent>
+        <div class="child"></div>
+    </div>
+
+    .parent .child {
+        color: red;
+    }
+    This will select .child class having parent with .parent class.
+
+8.  Precedence order:
+    id selector > class selector > type(tag) selector
+    During tie : - more number of selector > less number of selector
+
+9.  Inheritance : The child inherites the parent properties as well.
+    But if the child is specifically targeted then by specificity rule the child properties gets applied.
+
+10. Rule Order : After all rules of specificity & inheritance if still there is a tie-breaker, the last one defined wins/ overwrites.
+
+11. Adding Styles : 3 ways
+        i. External CSS:
+            In <head>, using <style rel="stylesheet" href="styles.css">
+
+        ii. Internal CSS : using <style> tag inside <<head> tag.
+            <head>
+                <style>
+                h1 {
+                    color: green;
+                }
+
+                div {
+                    color : yellow;
+                }
+                </style>
+            </head>
+        iii. Inline CSS :
+            <div style="color: red; background-color: yellow;">...</div>
