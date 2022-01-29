@@ -1,0 +1,19 @@
+1.  Use Ctrl+Shift+P --> to open command palette in inspect menu using this cmd palette we can directly run some command for chrome to do things for us.
+2.  In Computed we can directly see applied values of CSS instead of cascade.
+3.  We can use inspect function in console only to directly point to sepcified element and debug it.
+    inspect(document.querySelector('input')) --> it'll select input tag on the page.
+4.  We can also check the pseudo classes as well using :hov tab.
+5.  We can also add a new class to the element by using .cls tab.
+6.  We can copy style of a particular element from another page as well and paste it.
+7.  Using command palette we can take screenshot of screen, particular element etc.
+8.  While debugging JS code using logging using varible name in curly braces so that in logs it prints varible name along with its value.
+    e.g. console.log(counter); --> will only print value of counter
+    instead use console.log({counter}); --> this will print variable name "counter" along with its value.
+9.  Using animation tab we can debug animation css.
+10. We can also check the contrast ratio for an element so that if it not visible properly we can use devtool to find best values of color to improve visibility.
+11. console.table(obj); --> this will print the object values in a tabular format.
+12. Use console.trace() to check the call stack how it got there.
+13. If we type audit in command palette it'll give all the performance and other details about whats wrong on that page with mutiple metrics parameters and options     shown in opportunitym, if we implement those it'll improve those metrics scores for better.
+
+
+DevTools Link :- https://developer.chrome.com/docs/devtools/
