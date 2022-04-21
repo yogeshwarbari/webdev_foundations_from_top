@@ -1,0 +1,52 @@
+console.log() function to print to console.
+
+if you add external JS file in <head> tag then it will be executed first before content of <body>, so add it at end of <body> tag.
+
+JS file has .js extension.
+
+3 keywords to declare variables - let, var , const
+For the sake of better readability, please use a single line for declaration per variable.
+e.g.
+let a=10;
+let msg = "hello";
+let money =100;
+
+or
+
+let a=10,
+    msg = "hello",
+    money = 100;
+
+Both does same thing.
+
+There are two limitations on variable names in JavaScript:
+1)The name must contain only letters, digits, or the symbols $ and _.
+2)The first character must not be a digit.
+
+const variables are written in two ways 
+1) All capital - when value is known before execution of code. e.g. const COLOR_RED = "#F00";
+2) Camel Case - when value will be fixed after calculated and assigned. e.g. const pageLoadTime = /* this will be calculated and assigned */
+
+USE let because var behaves differently somewhere.
+variable declaration with var has issue with scope and redeclaration.
+
+e.g. redeclaration issue
+
+var x =10;
+
+{
+    var x =2;
+}
+
+console.log(x); // x = 2 here
+
+
+e.g. scope issue
+
+{
+    var x = 5;
+}
+
+console.log(x); // available outside of declaration scope.
+
+
